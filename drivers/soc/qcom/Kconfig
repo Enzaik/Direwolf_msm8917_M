@@ -954,12 +954,10 @@ config WCD_DSP_GLINK
 	help
 	   This option enables driver which provides communication interface
 	   between MSM and WCD DSP over glink transport protocol. This driver
-	   provides read and write interface via char device.
-
+	   provides read and write interface via char de
 
 config STATE_NOTIFIER
-        bool "State Notifier"
-
+        bool "State Notifie"
 
 source "drivers/soc/qcom/memshare/Kconfig"
 
